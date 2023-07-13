@@ -18,14 +18,13 @@
         <section class="search-panel">
             <div class="search-box">
                 <h3>Search for a City:</h3>
-                <form>
                     <div class="form-row align-items-center">
                         <div class="col-8 search-field">
                             <label class="sr-only" for="cityName">City</label>
                             <input type="text" class="form-control" id="cityName" placeholder="City Name">
                         </div>
                         <div class="col-3 search-button-panel">
-                            <button type="submit" class="btn btn-primary" id="search-button"><svg width="1em"
+                            <button class="btn btn-primary" id="search-button"><svg width="1em"
                                     height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd"
@@ -39,7 +38,6 @@
                     <div class="city-list-box">
                         <ul class="list-group" id="city-list"></ul>
                     </div>
-                </form>
             </div>
         </section>
 
@@ -50,13 +48,16 @@
                     <img src="" alt="" id="currentIcon">
                 </div>
                 <div>
-                    <p class="current-info" id="temperature">Temperature</p>
+                    <span>Temperature:</span>
+                    <span class="current-info" id="temperature">Temperature</span>
                 </div>
                 <div>
-                    <p class="current-info" id="humidity">Humidity</p>
+                    <span>Humidity:</span>
+                    <span class="current-info" id="humidity">Humidity</span>
                 </div>
                 <div>
-                    <p class="current-info" id="wind-speed">Wind Speed</p>
+                    <span>Wind Speed:</span>
+                    <span class="current-info" id="wind-speed">Wind Speed</span>
                 </div>
                 <div class="uv-index-block">
                     <p>UV Index: </p>
