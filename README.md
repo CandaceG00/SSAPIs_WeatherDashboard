@@ -23,7 +23,7 @@ THEN I am again presented with current and future conditions for that city
 
 * This webpage can be used to generate the current weather conditions for a given city, as well as its five-day forecast in fahrenheit for cities in the US and celsius for global.
 
-* Link:
+* Link: https://candaceg00.github.io/SSAPIs_WeatherDashboard/
 
 * Screenshots:
     <img src="./images/screenshot1.png"/>
