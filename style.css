@@ -99,7 +99,22 @@ section {
     color: white;
 }
 
+.list-group {
+    list-style-type: none;
+}
 
+.list-group li {
+    padding: 5px;
+    background-color: lightgreen;
+    margin: 5px;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-group li:hover {
+    background-color: rgb(202, 249, 202);
+}
 /* Viewports Styling*/
 
 @media screen and (max-width: 575px) {
